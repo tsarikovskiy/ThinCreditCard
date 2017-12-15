@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ThinCreditCard_Example' do
+  pod 'ThinCreditCard', :path => '../'
+
+  target 'ThinCreditCard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
