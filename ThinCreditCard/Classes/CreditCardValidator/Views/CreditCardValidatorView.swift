@@ -1,9 +1,9 @@
 //
 //  CreditCardValidatorView.swift
-//  MVisa
+//  ThinCreditCard
 //
 //  Created by Serg Tsarikovskiy on 04.12.17.
-//  Copyright © 2017 Nullgravity. All rights reserved.
+//  Copyright © 2017 Serg Tsarikovskiy. All rights reserved.
 //
 
 import UIKit

@@ -13,7 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		93D9FC2B17CB1F78599CB5C5 /* Pods_ThinCreditCard_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B284FFA6D893F5D7A535BF /* Pods_ThinCreditCard_Example.framework */; };
+		95D199AAD005821DB2C9057E /* Pods_ThinCreditCard_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B284FFA6D893F5D7A535BF /* Pods_ThinCreditCard_Example.framework */; };
 		E165FE7063F2FAEAF871C004 /* Pods_ThinCreditCard_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B87EE5D51C682AEFACC6D1 /* Pods_ThinCreditCard_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D9FC2B17CB1F78599CB5C5 /* Pods_ThinCreditCard_Example.framework in Frameworks */,
+				95D199AAD005821DB2C9057E /* Pods_ThinCreditCard_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
