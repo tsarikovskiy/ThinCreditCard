@@ -6,6 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/ThinCreditCard.svg?style=flat)](http://cocoapods.org/pods/ThinCreditCard)
 
 ## Example
+![](card.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
