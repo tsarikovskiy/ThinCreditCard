@@ -35,6 +35,6 @@ Pod::Spec.new do |s|
     'ThinCreditCard' => ['ThinCreditCard/Assets/**/*.png']
   }
 
-  s.resources = ['Pod/Assets/*', 'Pod/Resources/*']
+  s.resources = "ThinCreditCard/Assets/*.xcassets"
   s.frameworks = 'UIKit'
 end
