@@ -35,6 +35,6 @@ Pod::Spec.new do |s|
     'ThinCreditCard' => ['ThinCreditCard/Assets/**/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.resources = ['Pod/Assets/*', 'Pod/Resources/*']
   s.frameworks = 'UIKit'
 end
