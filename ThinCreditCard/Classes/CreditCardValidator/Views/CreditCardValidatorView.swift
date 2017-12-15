@@ -9,9 +9,9 @@
 import UIKit
 
 public protocol CreditCardValidatorViewDelegate: class {
-    func didEditing(number: String)
-    func didEditing(expiryDate: String)
-    func didEditing(cvc: String)
+    func didEdit(number: String)
+    func didEdit(expiryDate: String)
+    func didEdit(cvc: String)
 }
 
 open class CreditCardValidatorView: NibView {
@@ -72,16 +72,16 @@ open class CreditCardValidatorView: NibView {
 // MARK: - CreditCardInfoTextFieldDelegate
 extension CreditCardValidatorView: CreditCardInfoTextFieldDelegate {
     
-    func didEdited(textField: CreditCardInfoTextField, with text: String) {
+    func didEdit(textField: CreditCardInfoTextField, with text: String) {
         switch textField {
         case cardNumberTextField:
             cardImageView.image = CreditCardImageValidator.image(side: .number(text))
-            delegate?.didEditing(number: text)
+            delegate?.didEdit(number: text)
         case expiryDateTextField:
-            delegate?.didEditing(expiryDate: text)
+            delegate?.didEdit(expiryDate: text)
         case cvcTextField:
             cardImageView.image = CreditCardImageValidator.image(side: .cvc)
-            delegate?.didEditing(cvc: text)
+            delegate?.didEdit(cvc: text)
         default:
             break
         }

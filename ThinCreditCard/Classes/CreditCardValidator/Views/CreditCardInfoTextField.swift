@@ -9,7 +9,7 @@
 import UIKit
 
 protocol CreditCardInfoTextFieldDelegate: class {
-    func didEdited(textField: CreditCardInfoTextField, with text: String)
+    func didEdit(textField: CreditCardInfoTextField, with text: String)
     func didResignFirstResponder(textField: CreditCardInfoTextField)
     func didBecomeFirstResponder(textField: CreditCardInfoTextField)
 }
@@ -94,7 +94,7 @@ extension CreditCardInfoTextField: UITextFieldDelegate {
         
         textColor = .black
         let newString = range.length == 0 ? textFieldText + string : String(textFieldText.dropLast())
-        infoDelegate?.didEdited(textField: self, with: newString)
+        infoDelegate?.didEdit(textField: self, with: newString)
 
         guard newLength == validator.maxLength else { return continueTyping }
         guard validator.validate(text: newString) else {

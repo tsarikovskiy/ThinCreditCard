@@ -30,15 +30,15 @@ class ViewController: UIViewController {
 
 // MARK: - CreditCardValidatorViewDelegate
 extension ViewController: CreditCardValidatorViewDelegate {
-    func didEditing(number: String) {
+    func didEdit(number: String) {
         cardNumberLabel.text = "Number: " + number
     }
     
-    func didEditing(expiryDate: String) {
+    func didEdit(expiryDate: String) {
         cardExpirationLabel.text = "Expiry Date: " + expiryDate
     }
     
-    func didEditing(cvc: String) {
+    func didEdit(cvc: String) {
         cardCvcLabel.text = "CVC: " + cvc
     }
 }
