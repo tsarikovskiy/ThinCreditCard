@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/ThinCreditCard.svg?style=flat)](http://cocoapods.org/pods/ThinCreditCard)
 [![License](https://img.shields.io/cocoapods/l/ThinCreditCard.svg?style=flat)](http://cocoapods.org/pods/ThinCreditCard)
 [![Platform](https://img.shields.io/cocoapods/p/ThinCreditCard.svg?style=flat)](http://cocoapods.org/pods/ThinCreditCard)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## Example
 ![](card.gif)
