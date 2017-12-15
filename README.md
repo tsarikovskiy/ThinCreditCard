@@ -21,15 +21,15 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: CreditCardValidatorViewDelegate {
-    func didEditing(number: String) {
+    func didEdit(number: String) {
         // Play with card number
     }
 
-    func didEditing(expiryDate: String) {
+    func didEdit(expiryDate: String) {
         // Play with expiry date
     }
 
-    func didEditing(cvc: String) {
+    func didEdit(cvc: String) {
         // Play with cvc
     }
 }
