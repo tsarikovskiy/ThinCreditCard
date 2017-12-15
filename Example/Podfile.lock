@@ -1,5 +1,5 @@
 PODS:
-  - ThinCreditCard (0.1.0)
+  - ThinCreditCard (0.1.1)
 
 DEPENDENCIES:
   - ThinCreditCard (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ThinCreditCard: 375000fbd87e62bd62598ea7a75bda21d66a59fb
+  ThinCreditCard: b0ed7a6aabd77ef00b020e9af3e4e56c6f8d69d3
 
 PODFILE CHECKSUM: 9a5bb379ddcb65e28a3e79c0da7aa76ce5802a60
 

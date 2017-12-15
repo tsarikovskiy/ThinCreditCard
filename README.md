@@ -8,8 +8,6 @@
 ## Example
 ![](card.gif)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ```swift
 class ViewController: UIViewController {
 
@@ -35,6 +33,8 @@ extension ViewController: CreditCardValidatorViewDelegate {
     }
 }
 ```
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 ## Installation
 
 ThinCreditCard is available through [CocoaPods](http://cocoapods.org). To install
