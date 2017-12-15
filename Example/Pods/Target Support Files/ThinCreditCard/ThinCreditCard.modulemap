@@ -1,0 +1,6 @@
+framework module ThinCreditCard {
+  umbrella header "ThinCreditCard-umbrella.h"
+
+  export *
+  module * { export * }
+}
