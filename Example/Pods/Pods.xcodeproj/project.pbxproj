@@ -43,6 +43,13 @@
 			remoteGlobalIDString = 51DB5627754839017756E4917064A2C5;
 			remoteInfo = ThinCreditCard;
 		};
+		D8E3799D760048D531BF48A00F8FA9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F2A22C8C2C1BB45B63B6FC54AE77F86;
+			remoteInfo = "ThinCreditCard-ThinCreditCard";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +61,7 @@
 		2BDA194440E26F4D91798B00EF397856 /* Pods-ThinCreditCard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThinCreditCard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2CA2F9A37A433C4E05A4A3B18E16730F /* CreditCardImageValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardImageValidator.swift; sourceTree = "<group>"; };
 		3047B34587D3E71C0233E74234A5EB51 /* Pods-ThinCreditCard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThinCreditCard_Tests-dummy.m"; sourceTree = "<group>"; };
-		35D130C25326ADCA5E797C134816CBB4 /* ThinCreditCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThinCreditCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D130C25326ADCA5E797C134816CBB4 /* ThinCreditCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ThinCreditCard.framework; path = ThinCreditCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F9132890350525F3F400E19113F50F /* Pods-ThinCreditCard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThinCreditCard_Example-resources.sh"; sourceTree = "<group>"; };
 		375AA77C0BE61C0C43915C6E125F146E /* CreditCardTextValidatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardTextValidatorProtocol.swift; sourceTree = "<group>"; };
 		37C4EDA063508BE517BDE0ECEB955A00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,16 +73,16 @@
 		5A9EFE042AD762FD256B1E89F0B2B752 /* ResourceBundle-ThinCreditCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ThinCreditCard-Info.plist"; sourceTree = "<group>"; };
 		5B68676128EEE8D0B118F0BEB2F4DF24 /* Pods-ThinCreditCard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThinCreditCard_Tests-resources.sh"; sourceTree = "<group>"; };
 		5FDD81E91126C82B69065CA3FB9FBA9C /* Pods-ThinCreditCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThinCreditCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6094EED1331B667B52346BDC3FED8B72 /* Pods-ThinCreditCard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ThinCreditCard_Example.modulemap"; sourceTree = "<group>"; };
+		6094EED1331B667B52346BDC3FED8B72 /* Pods-ThinCreditCard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ThinCreditCard_Example.modulemap"; sourceTree = "<group>"; };
 		64DC6634308947F469B96DB737FC14F3 /* ThinCreditCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThinCreditCard-umbrella.h"; sourceTree = "<group>"; };
 		70C4C15C63D49C727ECFBFDF005D5095 /* Pods-ThinCreditCard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThinCreditCard_Example-frameworks.sh"; sourceTree = "<group>"; };
 		720CC44EDE6B399F8E589F5A070EE2D4 /* ThinCreditCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThinCreditCard-prefix.pch"; sourceTree = "<group>"; };
-		74AFCD124654CABC855125BE0B48358A /* Pods_ThinCreditCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinCreditCard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AFCD124654CABC855125BE0B48358A /* Pods_ThinCreditCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThinCreditCard_Tests.framework; path = "Pods-ThinCreditCard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D0367C1245CE34A5BFA7E76308D32F /* ThinCreditCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThinCreditCard-dummy.m"; sourceTree = "<group>"; };
 		772391D6087345A999EC6CA476FF9B34 /* Pods-ThinCreditCard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThinCreditCard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		90A7BE1358EAB7014B221FA5F4185740 /* CreditCardTextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardTextFormatter.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F24D438B69EEF6E782E38BBE2F1E79A /* Pods-ThinCreditCard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ThinCreditCard_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F24D438B69EEF6E782E38BBE2F1E79A /* Pods-ThinCreditCard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ThinCreditCard_Tests.modulemap"; sourceTree = "<group>"; };
 		A84E29A7877B0C12EC98450F60311B63 /* Pods-ThinCreditCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThinCreditCard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ADD162B1A1055D050E9268F11AE5B694 /* Pods-ThinCreditCard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThinCreditCard_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -90,11 +97,11 @@
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E032E190F4E0E8C06D8E5FA7B79DB8B5 /* Pods-ThinCreditCard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThinCreditCard_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E4418FAA359217018DE2FBF4D410768B /* CreditCardInfoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardInfoTextField.swift; sourceTree = "<group>"; };
-		E72615FBD51A1A7811ECC3B2BBC98EC7 /* ThinCreditCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ThinCreditCard.modulemap; sourceTree = "<group>"; };
-		EA23BB06287BDE01C613BB71950B7E75 /* Pods_ThinCreditCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinCreditCard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72615FBD51A1A7811ECC3B2BBC98EC7 /* ThinCreditCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ThinCreditCard.modulemap; sourceTree = "<group>"; };
+		EA23BB06287BDE01C613BB71950B7E75 /* Pods_ThinCreditCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThinCreditCard_Example.framework; path = "Pods-ThinCreditCard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F943382CCB75507E49B2F1E2DFB7450C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD2063198FA363B003E6EF46196296DC /* Pods-ThinCreditCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThinCreditCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FF1CA4F32395877CE489DC66F409C6C4 /* ThinCreditCard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinCreditCard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1CA4F32395877CE489DC66F409C6C4 /* ThinCreditCard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ThinCreditCard.bundle; path = ThinCreditCard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +179,7 @@
 				375AA77C0BE61C0C43915C6E125F146E /* CreditCardTextValidatorProtocol.swift */,
 				A7C5BCE851E3CA815106C6C8E4F05271 /* Algorithm */,
 			);
+			name = Validators;
 			path = Validators;
 			sourceTree = "<group>";
 		};
@@ -209,6 +217,7 @@
 				C3638A8CD30B3E38E7EF71A87BC9CC2E /* CreditCardValidatorView.swift */,
 				12FA27D83FC131512A9CCC40822D8AB6 /* CreditCardValidatorView.xib */,
 			);
+			name = Views;
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -256,6 +265,7 @@
 				D6E140FBF70ECEA8584215256FF3E071 /* String+SwiftLuhn.swift */,
 				4290CB2EBDCF83839B9317F7E36C6341 /* SwiftLuhn.swift */,
 			);
+			name = Algorithm;
 			path = Algorithm;
 			sourceTree = "<group>";
 		};
@@ -276,6 +286,7 @@
 				90A7BE1358EAB7014B221FA5F4185740 /* CreditCardTextFormatter.swift */,
 				B84F40BB6EDD7C23ACD6F2E2E3E6B4F8 /* CreditCardTextFormatterProtocol.swift */,
 			);
+			name = Formatters;
 			path = Formatters;
 			sourceTree = "<group>";
 		};
@@ -399,6 +410,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				836E83EEB0219A75DB24B360BE765BC7 /* PBXTargetDependency */,
 			);
 			name = ThinCreditCard;
 			productName = ThinCreditCard;
@@ -524,6 +536,12 @@
 			name = ThinCreditCard;
 			target = 51DB5627754839017756E4917064A2C5 /* ThinCreditCard */;
 			targetProxy = 7CDEBEC7D4B6E2DB2C6F2C379CCA4AC6 /* PBXContainerItemProxy */;
+		};
+		836E83EEB0219A75DB24B360BE765BC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ThinCreditCard-ThinCreditCard";
+			target = 8F2A22C8C2C1BB45B63B6FC54AE77F86 /* ThinCreditCard-ThinCreditCard */;
+			targetProxy = D8E3799D760048D531BF48A00F8FA9B8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

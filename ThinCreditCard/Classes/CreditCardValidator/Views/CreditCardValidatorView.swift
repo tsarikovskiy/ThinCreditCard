@@ -20,8 +20,7 @@ open class CreditCardValidatorView: NibView {
     struct C {
         static let duration = 0.4
         static let activeNumberWidth: CGFloat = 200
-        static let activeExpiryDateWidth: CGFloat = 120
-        static let activeCvcWidth: CGFloat = 120
+        static let curtailNumberWidth: CGFloat = 40
     }
     
     // MARK: - Outlets
@@ -32,9 +31,13 @@ open class CreditCardValidatorView: NibView {
     @IBOutlet weak var numberWidthConstraint: NSLayoutConstraint!
     @IBOutlet weak var cvcWidthConstraint: NSLayoutConstraint!
     @IBOutlet weak var expiryDateWidthConstraint: NSLayoutConstraint!
+    @IBOutlet weak var stackView: UIStackView!
     
     // MARK: - Properties
     open weak var delegate: CreditCardValidatorViewDelegate?
+    private var textWidth: CGFloat {
+        return (stackView.bounds.width - C.curtailNumberWidth) / 2
+    }
     
     private var isExpiryDateVisible: Bool {
         return expiryDateWidthConstraint.constant > 0
@@ -122,9 +125,9 @@ private extension CreditCardValidatorView {
     }
     
     func animateCurtailNumberField() {
-        numberWidthConstraint.constant = 0
-        expiryDateWidthConstraint.constant = C.activeExpiryDateWidth
-        cvcWidthConstraint.constant = C.activeCvcWidth
+        numberWidthConstraint.constant = C.curtailNumberWidth
+        expiryDateWidthConstraint.constant = textWidth
+        cvcWidthConstraint.constant = textWidth
         
         UIView.animate(withDuration: C.duration) { [weak self] in
             self?.layoutIfNeeded()
